@@ -1,0 +1,239 @@
+.header{
+	width:100% ;
+	height:970px ;
+	background:red ;
+	margin:0 ;
+	padding:0 ;
+	background:url("Img.png") no-repeat center;
+	background-size:cover ;
+}
+
+.middle{
+	width:100% ;
+	border:2px solid blue ;
+}
+
+.footer{
+	width:100% ;
+	height:202px ;
+	border:2px solid red ;
+}
+
+.screen-two{
+	width:1355px ;
+	height:470px ;
+	border:2px solid yellowgreen ;
+}
+
+.screen-one{
+	width:1355px ;
+	height:470x ;
+	border:2px solid orange ;
+}
+
+.header-list{
+	display:inline-block ;
+	
+	list-style:none ;
+
+}
+.header-list ul{
+	margin:0 ;
+	padding:0 ;
+	width:1000px ;
+	text-align: center;
+}
+.li{
+	
+	padding:0 ;
+	text-align:center ;
+	padding: 20px 20px ;
+	display:inline-block ;
+	
+
+}
+.li a{
+	color:white ;
+	opacity: 0.5;
+	text-decoration:none ;
+}
+.li a:hover{
+	color:white ;
+	opacity:0.8 ;
+}
+.header-top{
+	display:block ;
+}
+.img1 , .img2 {
+	display:inline-block ;
+}
+.img1{
+	margin-top:40px ;
+	margin-left: 60px;
+}
+.img2{
+	margin-top:40px ;
+	margin-right: 60px;
+	
+}
+.golova{
+	width:500px ;
+	height:260px ;
+	margin-left:60px ;
+	margin-top:120px ;
+}
+.golova h1{
+	font-size:60px ;
+	color:white ;
+}
+.golova p{
+	font-size:20px ;
+	color:white ;
+	width:400px ;
+	font-weight:10 ;
+}
+.btn{
+	margin-left:60px ;
+	width:500px ;
+	height:100px ;
+}
+.btn-item{
+	
+	width:200px ;
+	height:50px ;
+	border-radius:30px ;
+	background:#ffa200 ;
+	border:1px solid #ffa200;
+	font-size:15px ;
+	font-weight:bold ;
+	transition-duration: 0.3s;
+}
+.btn-item:hover{
+	transform:scale(1.2) ;
+}
+.btn-video button{
+	
+	
+	
+	width:50px ;
+	height:50px ;
+	border:2px solid rgb(255,255,255,0.8) ;
+    background:transparent url("play.png") no-repeat 60% 50% ;
+
+    border-radius:50% ;
+}
+.btn-video{
+	margin-left:250px ;
+	margin-top:-50px ;
+	opacity:0.7 ;
+	color:white ;
+	height:50px ;
+	transition-duration:0.3s ;
+}
+.btn-video p{
+	width:100px ;
+	margin-top:-40px ;
+	margin-left:70px ;
+}
+.btn-video:hover{
+	transform:scale(1.2) ;
+}
+.soc{
+
+	color:rgb(255,255,255,0.7) ;
+	margin-top:-60px ;
+	margin-left:40px ;
+}
+.soc a{
+	justify-self: center;
+	padding:15px ;
+}
+.soc p{
+	padding-left:15px ;
+}
+.cards {
+	width:900px ;
+	margin-left:450px ;
+	margin-top:150px ;
+}
+.card{
+	position:relative ;
+	display:inline-block ;
+	padding:20px ;
+	margin:20px ;
+
+	transition-duration: 0.3s;
+}
+.card:hover{
+	transform:scale(1.2) ;
+}
+.card1{
+	position:relative ;
+	display:inline-block ;
+	padding:20px ;
+   margin:20px ;
+	transition-duration: 0.3s;
+}
+.card1:hover{
+	transform:scale(1.2) ;
+}
+.card2{
+	position:relative ;
+	display:inline-block ;
+	padding:20px ;
+    margin:20px ;
+	transition-duration: 0.3s;
+}
+.card2:hover{
+	transform:scale(1.2) ;
+}
+.opis{
+	color:white ;
+	margin-top:60px ;
+	margin-left:10px ;
+	width:100px ;
+	font-size:20px ;
+	background: ;
+}
+.opis1{
+   color:white ;
+	margin-top:60px ;
+	margin-left:10px ;
+	width:100px ;
+	font-size:20px ;
+	background: ;
+}
+.opis2{
+     color:white ;
+	margin-top:60px ;
+	margin-left:10px ;
+	width:100px ;
+	font-size:20px ;
+}
+.card2{
+	border-radius:20px ;
+	width:200px ;
+	height:100px ;
+	background:url("gorod.png") no-repeat center ;
+}
+.card1{
+	border-radius:20px ;
+	width:200px ;
+	height:100px ;
+	background:url("imgIsland 1.png") no-repeat center ;
+}
+.card{
+	border-radius:20px ;
+	width:200px ;
+	height:100px ;
+	background:url("img1.png") no-repeat center ;
+}
+.number{
+	position:absolute ;
+	color:white ;
+	top:10px ;
+	margin-left:5px ;
+	margin-top:2px ;
+	width:100px ;
+	font-size:24px ;
+}
