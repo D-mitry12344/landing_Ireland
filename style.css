@@ -23,7 +23,7 @@ body {
 
 .middle{
 	width:100% ;
-	border:2px solid blue ;
+	
 }
 
 .footer{
@@ -51,6 +51,9 @@ body {
 
 }
 .header-list ul{
+	 display: flex;
+  align-items: center;
+  justify-content: center;
 	margin:0 ;
 	padding:0 ;
 	width:100%;
@@ -60,7 +63,7 @@ body {
 
 }
 .li{
-	vertical-align:middle ;
+	
 	padding:0 ;
 	text-align:center ;
 	
@@ -272,4 +275,171 @@ body {
 	position:absolute ;
 	top:140px ;
 	left:230px ;
+}
+.screen-one{
+	margin-top:100px ;
+	margin-left:auto ;
+	margin-right:auto ;
+   border:none ;
+	height:470px ;
+	display:flex ;
+	width:1355px ;
+   background:url("img2.png") no-repeat left ;
+}
+.screen-one button{
+	
+	border:3px solid yellow ;
+	background: transparent;
+	color:yellow ;
+  position: absolute;
+  margin-top:370px ;
+  margin-left: 900px;
+  height:70px ;
+  width:300px ;
+  font-size:25px ;
+  border-radius:50px ;
+}
+.screen-one button:hover{
+	animation:ger 1s infinite ;
+}
+@keyframes ger {
+  from {
+  	
+  	color:yellow ;
+    opacity: 0.5;
+  }
+
+  to {
+  	color: #BF7130	;
+  	border-color:#BF7130	 ;
+    opacity: 1;  }
+}
+.screen-one p{
+   display:block ;
+   font-size:20px ;
+   line-height:25px ;
+   margin-left:-400px ;
+   margin-top:150px ;
+   heigth:100px ;
+   align-self: center;
+
+}
+.screen-one img{
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	margin-left:700px ;
+	margin-top:370px ;
+	
+   
+}
+.screen-one img:hover{
+	animation-name: slid;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+}
+@keyframes slid {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform:scale(1.5,1.2);
+  }
+}
+.screen-one h2{
+	font-size:40px ;
+	display:block ;
+	height:150px ;
+	width:900px ;
+   margin-left:900px ;
+   align-self: flex-start;
+
+}
+.screen-one .opis{
+	position:absolute ;
+	margin-top:-300px ;
+	margin-left:40px ;
+}
+.screen-one .opis1{
+	position:absolute ;
+	width:500px ;
+	margin-top:400px ;
+	margin-left:40px ;
+}
+
+
+.screen-two{
+	margin-top:100px ;
+	margin-left:auto ;
+	margin-right:auto ;
+   border:none ;
+	height:470px ;
+	display:flex ;
+	width:1355px ;
+   background:url("img2.png") no-repeat right ;
+}
+.screen-two button{
+	
+	border:3px solid yellow ;
+	background: transparent;
+	color:yellow ;
+  position: absolute;
+  margin-top:370px ;
+  margin-left: 200px;
+  height:70px ;
+  width:300px ;
+  font-size:25px ;
+  border-radius:50px ;
+}
+.screen-two button:hover{
+	animation:ger 1s infinite ;
+}
+
+.screen-two p{
+   display:block ;
+   font-size:20px ;
+   line-height:25px ;
+   margin-left:-900px ;
+   margin-top:100px ;
+   heigth:100px ;
+   width:400px ;
+   align-self: center;
+
+}
+.screen-two img{
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	margin-left:1250px ;
+	margin-top:370px ;
+	
+   
+}
+.screen-two img:hover{
+	animation-name: slid;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+}
+
+.screen-two h2{
+	font-size:40px ;
+	display:block ;
+	height:150px ;
+	width:900px ;
+   margin-left:50px ;
+   align-self: flex-start;
+
+}
+.screen-two .opis{
+	position:absolute ;
+	margin-top:-300px ;
+	margin-left:560px ;
+	width:300px ;
+}
+.screen-two .opis1{
+	position:absolute ;
+	width:500px ;
+	margin-top:400px ;
+	margin-left:560px ;
 }
