@@ -277,7 +277,7 @@ body {
 	left:230px ;
 }
 .screen-one{
-	margin-top:100px ;
+	margin-top:200px ;
 	margin-left:auto ;
 	margin-right:auto ;
    border:none ;
@@ -318,42 +318,32 @@ body {
    display:block ;
    font-size:20px ;
    line-height:25px ;
-   margin-left:-400px ;
-   margin-top:150px ;
-   heigth:100px ;
+   margin-left:900px ;
+   margin-top:100px ;
+   heigth:200px ;
    align-self: center;
 
 }
 .screen-one img{
 	position: absolute;
-	height: 40px;
+	height: 60px;
 	width: 50px;
 	margin-left:700px ;
 	margin-top:370px ;
-	
+	transition-duration:0.5s ;
    
 }
 .screen-one img:hover{
-	animation-name: slid;
-	animation-duration: 0.3s;
-	animation-iteration-count: infinite;
+	transform:scale(1.1) ;
 }
-@keyframes slid {
-  from {
-    transform: scale(1);
-  }
 
-  to {
-    transform:scale(1.5,1.2);
-  }
-}
-.screen-one h2{
-	font-size:40px ;
-	display:block ;
-	height:150px ;
-	width:900px ;
-   margin-left:900px ;
-   align-self: flex-start;
+
+div.screen-one h2.reg{
+	font-size:45px ;
+	position:absolute ;
+	height:200px ;
+   left: 1180px;
+	width:500px ;
 
 }
 .screen-one .opis{
@@ -423,7 +413,7 @@ body {
 }
 
 .screen-two h2{
-	font-size:40px ;
+	font-size:45px ;
 	display:block ;
 	height:150px ;
 	width:900px ;
@@ -442,4 +432,33 @@ body {
 	width:500px ;
 	margin-top:400px ;
 	margin-left:560px ;
+}
+.footer ul{
+	list-style:none ;
+	margin-left:420px ;
+	margin-top: -80px;
+}
+.footer ul li{
+	display: inline-block;
+	padding:40px ;
+	width:200px ;
+	font-size:17px ;
+	opacity:0.5 ;
+}
+.footer-soc{
+	margin-top:-180px ;
+	margin-left: 1500px;
+}
+.footer-soc a{
+	 margin:10px ;
+     display:inline-block ;
+}
+.footer img{
+   margin-left:0px ;
+	margin-top:80px ;
+}
+.footer{
+	margin-top:200px ;
+	margin-left:50px ;
+	border:none ;
 }
