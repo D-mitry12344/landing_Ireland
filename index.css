@@ -1,9 +1,9 @@
 @font-face{
-   font-family:'kil' ;
+   font-family:'PlayfairDisplay' ;
    src:url("PlayfairDisplay-Bold.ttf") ;
 }
 @font-face{
-   font-family:'kill' ;
+   font-family:'Montserrat' ;
 src:url("Montserrat-Regular.ttf");
 }
 body {
@@ -17,7 +17,7 @@ body {
 	background:red ;
 	margin:0 ;
 	padding:0 ;
-	background:url("Img.png") no-repeat center;
+	background:url("images/Img.png") no-repeat center;
 	background-size:cover ;
 }
 
@@ -62,7 +62,7 @@ body {
 	text-align: center;
 
 }
-.li{
+.list{
 	
 	padding:0 ;
 	text-align:center ;
@@ -71,7 +71,7 @@ body {
 	
 
 }
-.li a{
+.list a{
 	padding: 0px 20px ;
 	padding-bottom:40px ;
 	color:white ;
@@ -79,7 +79,7 @@ body {
 	text-decoration:none ;
 	font-size:19px ;
 }
-.li a:hover{
+.list a:hover{
 	color:white ;
 	opacity:0.8 ;
 }
@@ -99,25 +99,25 @@ body {
 	margin-right: 120px;
 	
 }
-.golova{
+.head{
 	width:700px ;
 	height:260px ;
 	margin-left:120px ;
 	margin-top:140px ;
 }
-.golova h1{
+.head h1{
 	font-size:70px ;
 	color:white ;
 	font-weight:700 ;
-	font-family:'kil', sans-serif;
+	font-family:'PlayfairDisplay', sans-serif;
    line-height: 91px;
 }
-.golova p{
+.head p{
 	font-size:25px ;
 	color:white ;
 	width:600px ;
 	margin-top:-15px ;
-	font-family:'kill' ;
+	font-family:'Montserrat' ;
 	line-height:36px ;
 }
 .btn{
@@ -170,18 +170,18 @@ body {
 .btn-video:hover{
 	transform:scale(1.2) ;
 }
-.soc{
+.social{
 
 	color:rgb(255,255,255,0.7) ;
 	margin-top:-80px ;
 	margin-left:110px ;
 	float:bottom ;
 }
-.soc a{
+.social a{
 	justify-self: center;
 	padding:15px ;
 }
-.soc p{
+.social p{
 	padding-left:15px ;
 }
 .cards {
@@ -445,11 +445,11 @@ div.screen-one h2.reg{
 	font-size:17px ;
 	opacity:0.5 ;
 }
-.footer-soc{
+.footer-social{
 	margin-top:-180px ;
 	margin-left: 1500px;
 }
-.footer-soc a{
+.footer-social a{
 	 margin:10px ;
      display:inline-block ;
 }
