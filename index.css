@@ -1,464 +1,502 @@
-@font-face{
-   font-family:'PlayfairDisplay' ;
-   src:url("PlayfairDisplay-Bold.ttf") ;
+@font-face {
+   font-family: 'PlayfairDisplay';
+   src: url("font/PlayfairDisplay-Bold.ttf");
 }
-@font-face{
-   font-family:'Montserrat' ;
-src:url("Montserrat-Regular.ttf");
+
+@font-face {
+   font-family: 'Montserrat';
+	src: url("font/Montserrat-Regular.ttf");
 }
+
 body {
-	width:1920px ;
-	margin:0px;
-	padding:0px ;
-}
-.header{
-	width:100% ;
-	height:970px ;
-	background:red ;
-	margin:0 ;
-	padding:0 ;
-	background:url("images/Img.png") no-repeat center;
-	background-size:cover ;
+	width: 1920px;
+	margin: 0px;
+	padding: 0px;
 }
 
-.middle{
-	width:100% ;
-	
+a{
+	text-decoration: none;
 }
 
-.footer{
-	width:100% ;
-	height:202px ;
-	border:2px solid red ;
+.header {
+	width: 100%;
+	height: 970px;
+	background: red;
+	margin: 0;
+	padding: 0;
+	background: url("images/Img.png") no-repeat center;
+	background-size: cover;
 }
 
-.screen-two{
-	width:1355px ;
-	height:470px ;
-	border:2px solid yellowgreen ;
+.middle {
+	width: 100%;
 }
 
-.screen-one{
-	width:1355px ;
-	height:470x ;
-	border:2px solid orange ;
+.footer {
+	width: 100%;
+	height: 202px;
+	border: 2px solid red;
 }
 
-.header-list{
-	display:inline-block ;
-	
-	list-style:none ;
-
+.screen-two {
+	width: 1355px;
+	height: 470px;
+	border: 2px solid yellowgreen;
 }
-.header-list ul{
-	 display: flex;
-  align-items: center;
-  justify-content: center;
-	margin:0 ;
-	padding:0 ;
-	width:100%;
-	margin-left:380px ;
-	margin-top:40px ;
+
+.screen-one {
+	width: 1355px;
+	height: 470x;
+	border: 2px solid orange;
+}
+
+.header-list {
+	list-style: none;
+}
+
+.header-list ul {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	padding-top: 48px;
+	padding-left: 67px;
 	text-align: center;
-
 }
-.list{
-	
-	padding:0 ;
-	text-align:center ;
-	
-	display:inline-block ;
-	
 
+.list {
+	padding: 0;
+	padding-bottom: 40px;
+	text-align: center;
+	display: inline-block;
 }
-.list a{
-	padding: 0px 20px ;
-	padding-bottom:40px ;
-	color:white ;
+
+.list a {
+	padding: 0px 25px;
+	padding-bottom: 40px;
+	color: white;
 	opacity: 0.5;
-	text-decoration:none ;
-	font-size:19px ;
+	text-decoration: none;
+	font-size: 17px;
 }
-.list a:hover{
-	color:white ;
-	opacity:0.8 ;
+
+.list a:hover {
+	color: white;
+	opacity: 0.8;
 }
-.header-top{
-	display:block ;
+
+.header-top {
+	display: block;
 }
-.img1 , .img2 {
-	display:inline-block ;
+
+.img1, .img2 {
+	position: absolute;
 }
-.img1{
-	margin-top:40px ;
-	margin-left: 120px;
+
+.img1 {
+	top: 40px;
+	left: 120px;
 }
-.img2{
-	float:right ;
-	margin-top:45px ;
-	margin-right: 120px;
-	
+
+.img2 {
+	top: 43px;
+	right: 223px;
 }
+
 .head{
-	width:700px ;
-	height:260px ;
-	margin-left:120px ;
-	margin-top:140px ;
+	width: 700px;
+	height: 260px;
+	margin-left: 120px;
+	margin-top: 115px;
 }
-.head h1{
-	font-size:70px ;
-	color:white ;
-	font-weight:700 ;
-	font-family:'PlayfairDisplay', sans-serif;
+
+.head h1 {
+	font-size: 70px;
+	color: white;
+	font-weight: 700;
+	font-family: 'PlayfairDisplay', sans-serif;
    line-height: 91px;
 }
-.head p{
-	font-size:25px ;
-	color:white ;
-	width:600px ;
-	margin-top:-15px ;
-	font-family:'Montserrat' ;
-	line-height:36px ;
+
+.head p {
+	font-size: 25px;
+	color: white;
+	width: 600px;
+	margin-top: -17px;
+	font-family: 'Montserrat';
+	line-height: 37px;
 }
-.btn{
-	margin-top:90px ;
-	margin-left:120px ;
-	width:700px ;
-	height:100px ;
+
+.btn {
+	margin-top: 85px;
+	margin-left: 120px;
+	width: 700px;
+	height: 100px ;
 }
-.btn-item{
-	
-	width:290px ;
-	height:70px ;
-	border-radius:50px ;
-	background:#ffa200 ;
-	border:1px solid #ffa200;
-	font-size:20px ;
-	font-weight:bold ;
+
+.btn-item {
+	width: 295px;
+	height: 75px;
+	border-radius: 50px;
+	background: #EFC224;
+	border: 1px solid #EFC224;
+	font-size: 19px;
+	font-weight: 1000;
+	font-family: "Montserrat";
 	transition-duration: 0.3s;
 }
-.btn-item:hover{
-	transform:scale(1.2) ;
-}
-.btn-video button{
-	
-	
-	
-	width:70px ;
-	height:70px ;
-	border:2px solid rgb(255,255,255,0.8) ;
-    background:transparent url("play.png") no-repeat 60% 50% ;
 
-    border-radius:50% ;
+.btn-item:hover {
+	transform: scale(1.2);
 }
-.btn-video{
-	margin-left:350px ;
-	margin-top:-70px ;
-	opacity:0.7 ;
-	color:white ;
-	height:50px ;
-	transition-duration:0.3s ;
-}
-.btn-video p{
-	font-size:22px ;
-	width: 150px ;
-	margin-top:-65px ;
-	margin-left:90px ;
-	line-height:25px ;
-	font-family:sans-serif ;
-}
-.btn-video:hover{
-	transform:scale(1.2) ;
-}
-.social{
 
-	color:rgb(255,255,255,0.7) ;
-	margin-top:-80px ;
-	margin-left:110px ;
-	float:bottom ;
+.btn-video button {
+	width: 72px;
+	height: 72px;
+	border: 2px solid rgb(255,255,255,0.8);
+   background: transparent url("images/play.png") no-repeat 55% 50%;
+	border-radius: 50%;
 }
-.social a{
+
+.btn-video {
+	margin-left: 355px;
+	margin-top: -75px;
+	opacity: 0.7;
+	color: white;
+	height: 50px;
+	transition-duration: 0.3s;
+}
+
+.btn-video p {
+	font-size: 20px;
+	width: 150px;
+	margin-top: -61px;
+	margin-left: 90px;
+	line-height: 25px;
+	font-weight: 100;
+	font-family: "Montserrat";
+}
+
+.btn-video:hover {
+	transform: scale(1.2);
+}
+
+.social {
+	color: rgb(255,255,255,0.7);
+	margin-top: -82px;
+	margin-left: 110px;
+	float: bottom;
+}
+
+.social a {
+	display: inline-block;
 	justify-self: center;
-	padding:15px ;
+	padding:5px 15px;
 }
-.social p{
-	padding-left:15px ;
+
+.social p {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	padding-left: 10px;
 }
+
 .cards {
-	width:1000px ;
-	margin-left:835px ;
-	margin-top:25px ;
+	width: 1000px;
+	margin-left: 835px;
+	margin-top: 33px;
 }
-.card{
-	width: 285px;
-   height: 200px;
-	position:relative ;
-	display:inline-block ;
-	
-	margin:12px ;
 
+.card {
+	width: 287px;
+   height: 202px;
+	position: relative;
+	display: inline-block;
+	margin: 12px;
 	transition-duration: 0.3s;
+	border-radius: 20px;
 }
-.card:hover{
-	transform:scale(1.2) ;
-}
-.card1{
-	position:relative ;
-	display:inline-block ;
-	width: 285px;
-   height: 200px;
-   margin:12px ;
-	transition-duration: 0.3s;
-}
-.card1:hover{
-	transform:scale(1.2) ;
-}
-.card2{
-	position:relative ;
-	display:inline-block ;
-	width: 285px;
-   height: 200px;
-    margin:12px ;
-	transition-duration: 0.3s;
-}
-.card2:hover{
-	transform:scale(1.2) ;
-}
-.opis{
-	color:white ;
-	margin-top:120px ;
-	margin-left:40px ;
-	width:100px ;
-	font-size:25px ;
-	
-}
-.opis1{
-   color:white ;
-	margin-top:120px ;
-	margin-left:40px ;
-	width:100px ;
-	font-size:25px ;
-	
-}
-.opis2{
-     color:white ;
-	margin-top:120px ;
-	margin-left:40px ;
-	width:100px ;
-	font-size:25px ;
-}
-.card2{
-	border-radius:20px ;
-	
-	background:url("gorod.png") no-repeat center ;
-}
-.card1{
-	border-radius:20px ;
-	
-	background:url("imgIsland 1.png") no-repeat center ;
-}
-.card{
-	border-radius:20px ;
-	
-	background:url("img1.png") no-repeat center ;
-}
-.number{
-	position:absolute ;
-	color:white ;
-	top:10px ;
-	margin-left:40px ;
-	margin-top:20px ;
-	width:100px ;
-	font-size:30px ;
-}
-.cards img{
-	position:absolute ;
-	top:140px ;
-	left:230px ;
-}
-.screen-one{
-	margin-top:200px ;
-	margin-left:auto ;
-	margin-right:auto ;
-   border:none ;
-	height:470px ;
-	display:flex ;
-	width:1355px ;
-   background:url("img2.png") no-repeat left ;
-}
-.screen-one button{
-	
-	border:3px solid yellow ;
-	background: transparent;
-	color:yellow ;
-  position: absolute;
-  margin-top:370px ;
-  margin-left: 900px;
-  height:70px ;
-  width:300px ;
-  font-size:25px ;
-  border-radius:50px ;
-}
-.screen-one button:hover{
-	animation:ger 1s infinite ;
-}
-@keyframes ger {
-  from {
-  	
-  	color:yellow ;
-    opacity: 0.5;
-  }
 
-  to {
-  	color: #BF7130	;
-  	border-color:#BF7130	 ;
-    opacity: 1;  }
+.card:hover {
+	transform: scale(1.2);
 }
-.screen-one p{
-   display:block ;
-   font-size:20px ;
-   line-height:25px ;
-   margin-left:900px ;
-   margin-top:100px ;
-   heigth:200px ;
-   align-self: center;
 
+.opis {
+	font-family: 'Montserrat';
+	color: white;
+	margin-top: 125px;
+	margin-left: 25px;
+	width: 100px;
+	font-size: 16.9px;
+	line-height: 25px;
 }
-.screen-one img{
+
+.card1 {
+	background: url("images/img1.png") no-repeat center;
+}
+
+.card2 {
+	background: url("images/imgIsland.png") no-repeat center;
+}
+
+.card3 {
+	background: url("images/gorod.png") no-repeat center;
+}
+
+.number {
 	position: absolute;
-	height: 60px;
-	width: 50px;
-	margin-left:700px ;
-	margin-top:370px ;
-	transition-duration:0.5s ;
-   
-}
-.screen-one img:hover{
-	transform:scale(1.1) ;
+	color: white;
+	top: 10px;
+	font-family: 'Playfair';
+	margin-left: 25px;
+	margin-top: 10px;
+	font-weight: 100;
+	width: 100px;
+	font-size: 30px;
 }
 
+.cards img {
+	position: absolute;
+	top: 147px;
+	left: 229px;
+}
 
-div.screen-one h2.reg{
-	font-size:45px ;
-	position:absolute ;
-	height:200px ;
+.screen-one {
+	margin-top: 160px;
+	margin-left: 262px;
+	margin-right: auto;
+   border: none;
+	height: 470px;
+	display: flex;
+	width: 1355px;
+   background: url("images/img2.png") no-repeat left;
+}
+
+.screen-one button {
+	border: 3px solid #EFC224;
+	background: transparent;
+	color: #EFC224;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: -430px;
+  height: 75px;
+  width: 270px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 50px;
+  opacity: 0.5;
+}
+
+.screen-one button:hover {
+	color: #BF7130;
+  	border-color: #BF7130;
+   opacity: 1;  
+}
+
+.screen-one .podzag {
+   display: block;
+   font-size: 19px;
+   line-height: 25px;
+   margin-left: 820px;
+   margin-top: 100px;
+   heigth: 200px;
+   align-self: center;
+   font-family: 'Montserrat';
+}
+
+.screen-one img {
+	position: absolute;
+	height: 25px;
+	width: 30px;
+	margin-left: 650px;
+	margin-top: 400px;
+}
+
+div.screen-one h2.reg {
+	font-size: 47px;
+	position: absolute;
+	height: 200px;
+	margin-top: 50px;
    left: 1180px;
-	width:500px ;
-
-}
-.screen-one .opis{
-	position:absolute ;
-	margin-top:-300px ;
-	margin-left:40px ;
-}
-.screen-one .opis1{
-	position:absolute ;
-	width:500px ;
-	margin-top:400px ;
-	margin-left:40px ;
+	width: 500px;
+	font-family: 'Playfair';
 }
 
-
-.screen-two{
-	margin-top:100px ;
-	margin-left:auto ;
-	margin-right:auto ;
-   border:none ;
-	height:470px ;
-	display:flex ;
-	width:1355px ;
-   background:url("img2.png") no-repeat right ;
-}
-.screen-two button{
-	
-	border:3px solid yellow ;
-	background: transparent;
-	color:yellow ;
-  position: absolute;
-  margin-top:370px ;
-  margin-left: 200px;
-  height:70px ;
-  width:300px ;
-  font-size:25px ;
-  border-radius:50px ;
-}
-.screen-two button:hover{
-	animation:ger 1s infinite ;
+.screen-one .opis {
+	display: block;
+	postion: absolute;
+	margin-top: 45px;
+	margin-left: 40px;
+	color: white;
 }
 
-.screen-two p{
-   display:block ;
-   font-size:20px ;
-   line-height:25px ;
-   margin-left:-900px ;
-   margin-top:100px ;
-   heigth:100px ;
-   width:400px ;
-   align-self: center;
-
+.opis-one {
+ 	margin: 0;
+ 	font-family: 'Playfair';
+ 	font-size: 25px;
+ 	font-weight: 600;
 }
-.screen-two img{
+
+.opis-two {
+	font-family: 'Montserrat';
+	font-size: 16px;
+	margin-top: 5px;
+	font-weight: 0;
+}
+
+.screen-one .opis1 {
+	color: white;
 	position: absolute;
-	height: 40px;
-	width: 50px;
-	margin-left:1250px ;
-	margin-top:370px ;
-	
-   
-}
-.screen-two img:hover{
-	animation-name: slid;
-	animation-duration: 0.3s;
-	animation-iteration-count: infinite;
+	width: 500px;
+	margin-top: 400px;
+	margin-left: 40px;
+	font-family: 'Montserrat';
+	font-size: 20px;
 }
 
-.screen-two h2{
-	font-size:45px ;
-	display:block ;
-	height:150px ;
-	width:900px ;
-   margin-left:50px ;
+.screen-two {
+	margin-top: 160px;
+	margin-left: 302px;
+	margin-right: auto;
+   border: none;
+	height: 470px;
+	display: flex;
+	width: 1355px;
+   background: url("images/imgHawaii.png") no-repeat right;
+}
+
+.screen-two button {
+	border: 3px solid #EFC224;
+	background: transparent;
+  	color: #EFC224;
+  	position: absolute;
+  	margin-top: 325px;
+  	margin-left: -400px;
+  	height: 70px;
+  	width: 270px;
+  	border-radius: 50px;
+  	font-size: 22px;
+  	font-family: sans-serif;
+  	font-weight: 600;
+  	opacity: 0.5;
+}
+
+.screen-two button:hover {
+	color: #BF7130;
+  	border-color: #BF7130;
+   opacity: 1;  
+}
+
+.screen-two .podzag {
+   display: block;
+   font-size: 18px;
+   line-height: 27px;
+   margin-left: -898px;
+   margin-top: 40px;
+   heigth: 100px;
+   width: 400px;
+   align-self: center;
+   font-family: 'Montserrat';
+}
+
+.screen-two img {
+	position: absolute;
+	height: 25px;
+	width: 30px;
+	margin-left: 610px;
+	margin-top: 405px;
+}
+
+.screen-two h2 {
+	font-size: 46px;
+	font-family: 'Playfair';
+	display: block;
+	height: 150px;
+	width: 900px;
+   margin-left: -718px;
+   margin-top: 80px;
    align-self: flex-start;
+}
 
+.screen-two .opis {
+	display: block;
+	postion: absolute;
+	margin-top: 46px;
+	margin-left: 575px;
+	color: white;
 }
-.screen-two .opis{
-	position:absolute ;
-	margin-top:-300px ;
-	margin-left:560px ;
-	width:300px ;
+
+.opis-on{
+  margin: 0;
+  font-family: 'Playfair';
+ font-size: 25px;
+ font-weight: 600;
 }
-.screen-two .opis1{
-	position:absolute ;
-	width:500px ;
-	margin-top:400px ;
-	margin-left:560px ;
+
+.opis-tu{
+	font-family: 'Montserrat';
+	font-size: 16px;
+	margin: 0;
+	margin-top: 7px;
+	font-weight: 0;
+  	color: white;
+ 	width: 200px;
 }
-.footer ul{
-	list-style:none ;
-	margin-left:420px ;
+
+.screen-two .opis1 {
+	position: absolute;
+	width: 700px;
+	margin-top: 400px;
+	margin-left: 575px;
+	color: white;
+	font-size: 23px;
+	font-family: 'Montaserrat';
+}
+
+.footer ul {
+	list-style: none;
+	margin-left: 415px;
 	margin-top: -80px;
 }
-.footer ul li{
+
+.footer ul li {
 	display: inline-block;
-	padding:40px ;
-	width:200px ;
-	font-size:17px ;
-	opacity:0.5 ;
+	padding: 40px;
+	width: 200px;
+	font-size: 14px;
+	opacity: 0.5;
+	colot: #9AB5C8;
+	font-family: 'Montserrat';
+	line-height: 20px;
 }
-.footer-social{
-	margin-top:-180px ;
-	margin-left: 1500px;
+
+.footer ul li:hover {
+  	opscity: 1;
 }
-.footer-social a{
-	 margin:10px ;
-     display:inline-block ;
+
+.footer-social {
+	margin-top: -100px;
+	margin-left: 1550px;
 }
-.footer img{
-   margin-left:0px ;
-	margin-top:80px ;
+
+.footer-social a {
+	margin:13px ;
+   display: inline-block;
 }
-.footer{
-	margin-top:200px ;
-	margin-left:50px ;
-	border:none ;
+
+.footer-social a img{
+	margin:0 ;
+}
+
+.footer img {
+   margin-left: 70px;
+	margin-top: 83px;
+}
+
+.footer {
+	margin-top: 160px;
+	margin-left: 50px;
+	border: none;
 }
