@@ -8,10 +8,18 @@
 	src: url("font/Montserrat-Regular.ttf");
 }
 
+html{
+	width: 100%;
+}
 body {
-	width: 1920px;
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	position: relative;
+}
+
+button{
+	cursor: pointer;
 }
 
 a{
@@ -60,7 +68,7 @@ a{
   	justify-content: center;
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	width: calc(100% - 67px);
 	padding-top: 48px;
 	padding-left: 67px;
 	text-align: center;
@@ -149,7 +157,7 @@ a{
 }
 
 .btn-item:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .btn-video button {
@@ -196,6 +204,10 @@ a{
 	padding:5px 15px;
 }
 
+.social a img:hover {
+ 	box-shadow: 0px 0px 13px 5px rgb(255,255,255,0.2);
+}
+
 .social p {
 	font-family: 'Montserrat';
 	font-size: 14px;
@@ -203,6 +215,7 @@ a{
 }
 
 .cards {
+	cursor: pointer;
 	width: 1000px;
 	margin-left: 835px;
 	margin-top: 33px;
@@ -219,7 +232,7 @@ a{
 }
 
 .card:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .opis {
@@ -312,6 +325,10 @@ a{
 	width: 30px;
 	margin-left: 650px;
 	margin-top: 400px;
+}
+
+.screen-one img:hover , .screen-two img:hover {
+	transform: scale(1.1);
 }
 
 div.screen-one h2.reg {
@@ -457,6 +474,7 @@ div.screen-one h2.reg {
 
 .footer ul {
 	list-style: none;
+	width: calc(100% - 415px);
 	margin-left: 415px;
 	margin-top: -80px;
 }
@@ -473,7 +491,7 @@ div.screen-one h2.reg {
 }
 
 .footer ul li:hover {
-  	opscity: 1;
+  	opacity: 1;
 }
 
 .footer-social {
@@ -482,12 +500,17 @@ div.screen-one h2.reg {
 }
 
 .footer-social a {
-	margin:13px ;
+	margin: 13px;
    display: inline-block;
 }
 
 .footer-social a img{
-	margin:0 ;
+	margin: 0;
+}
+
+.footer-social a img:hover {
+  	box-shadow: inset 0px 0px 13px 10px rgb(0,0,0,0.19),
+  							0px 0px 13px 10px rgb(0,0,0,0.2);
 }
 
 .footer img {
@@ -499,4 +522,7 @@ div.screen-one h2.reg {
 	margin-top: 160px;
 	margin-left: 50px;
 	border: none;
+	height:207px ;
+	background: #f4f4f4;
+	width: 100%;
 }
