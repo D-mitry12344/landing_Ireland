@@ -28,6 +28,7 @@ a{
 
 .header {
 	width: 100%;
+	min-width:1920px ;
 	height: 970px;
 	background: red;
 	margin: 0;
@@ -210,7 +211,7 @@ a{
 
 .cards {
 	cursor: pointer;
-	width: calc(100% - 835);
+	min-width: 1080px;
 	margin-left: 835px;
 	margin-top: 33px;
 }
@@ -490,6 +491,7 @@ div.screen-one h2.reg {
 .footer-social {
 	margin-top: -100px;
 	margin-left: 1550px;
+	width:370px ;
 }
 
 .footer-social a {
