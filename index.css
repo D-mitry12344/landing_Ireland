@@ -60,8 +60,9 @@ a{
 .header-list ul {
 	display: flex;
   	align-items: center;
-  	justify-content: center;
 	margin: 0;
+	margin-left: 960px;
+	margin-right: auto;
 	padding: 0;
 	width: calc(100% - 67px);
 	padding-top: 48px;
@@ -104,8 +105,10 @@ a{
 }
 
 .img2 {
-	top: 43px;
-	right: 223px;
+	position: relative;
+	margin-top: -70px;
+	margin-left: 1697px;
+	margin-right: 223px;
 }
 
 .head{
