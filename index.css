@@ -15,6 +15,7 @@ body {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	min-width: 1920px;
 	position: relative;
 }
 
@@ -26,19 +27,37 @@ a{
 	text-decoration: none;
 }
 
-.header {
+header{
 	width: 100%;
+	position: relative;
+}
+
+.header {
 	min-width:1920px ;
+	position: absolute;
+	left: 50%;
 	height: 970px;
 	background: red;
 	margin: 0;
+	margin-left: -960px;
 	padding: 0;
 	background: url("images/Img.png") no-repeat center;
 	background-size: cover;
 }
 
 .middle {
+	width: 1920px;
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+	bottom: -2200px;
+
+}
+
+main{
 	width: 100%;
+	position: relative;
+
 }
 
 .screen-two {
@@ -517,10 +536,16 @@ div.screen-one h2.reg {
 }
 
 .footer {
-	margin-top: 160px;
-	margin-left: 50px;
+	position: absolute;
+	margin-left: -960px;
 	border: none;
-	height:207px ;
+	height: 207px;
 	background: #f4f4f4;
-	
+	width: 100%;
+	left: 50%;
+	bottom: -2500px;
+}
+footer{
+	position: relative;
+	width: 100%;
 }
