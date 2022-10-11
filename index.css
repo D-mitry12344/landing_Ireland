@@ -29,47 +29,35 @@ a{
 
 header{
 	width: 100%;
-	position: relative;
-}
-
-.header {
-	min-width:1920px ;
-	position: absolute;
-	left: 50%;
-	height: 970px;
-	background: red;
-	margin: 0;
-	margin-left: -960px;
-	padding: 0;
 	background: url("images/Img.png") no-repeat center;
 	background-size: cover;
 }
 
+.header {
+	width: 1920px;
+	height: 970px;
+	margin: 0 auto;
+	padding: 0;
+}
+
 .middle {
 	width: 1920px;
-	position: absolute;
-	left: 50%;
-	margin-left: -960px;
-	bottom: -2200px;
-
+	margin-left: auto;
+	margin-right: auto;
 }
 
 main{
 	width: 100%;
-	position: relative;
-
 }
 
 .screen-two {
 	width: 1355px;
 	height: 470px;
-	border: 2px solid yellowgreen;
 }
 
 .screen-one {
 	width: 1355px;
 	height: 470x;
-	border: 2px solid orange;
 }
 
 .header-list {
@@ -308,7 +296,7 @@ main{
 	background: transparent;
 	color: #EFC224;
   position: absolute;
-  margin-top: 350px;
+  margin-top: 400px;
   margin-left: -430px;
   height: 75px;
   width: 270px;
@@ -329,8 +317,8 @@ main{
    display: block;
    font-size: 19px;
    line-height: 25px;
-   margin-left: 820px;
-   margin-top: 100px;
+   margin-left: -530px;
+   margin-top: 190px;
    heigth: 200px;
    align-self: center;
    font-family: 'Montserrat';
@@ -349,12 +337,12 @@ main{
 }
 
 div.screen-one h2.reg {
+	display: block;
+	width: 1500px;
+   margin-left: 820px;
+   margin-top: 80px;
 	font-size: 47px;
-	position: absolute;
 	height: 200px;
-	margin-top: 50px;
-   left: 1180px;
-	width: 500px;
 	font-family: 'Playfair';
 }
 
@@ -536,16 +524,14 @@ div.screen-one h2.reg {
 }
 
 .footer {
-	position: absolute;
-	margin-left: -960px;
+	margin-top: 160px;
+	margin-left: auto;
+	margin-right: auto;
 	border: none;
 	height: 207px;
-	background: #f4f4f4;
-	width: 100%;
-	left: 50%;
-	bottom: -2500px;
+	width: 1920px;
 }
 footer{
-	position: relative;
+	background: #f4f4f4;
 	width: 100%;
 }
